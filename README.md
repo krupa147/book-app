@@ -49,5 +49,5 @@ Above #1 and #2 apis will return both citations MLA style and chicago style also
 1. MLA style citation -> citation
 2. Chicago Manual of Style -> chicago_style_citation
 
-### If you have a large list of these in memory and want to save the entire list to the database, with only one call to the DB server.
-Addee active record import in seed.rb to insert large data in one query to database
+### insert large data
+Added active record import in seed.rb to insert large data in one query to database

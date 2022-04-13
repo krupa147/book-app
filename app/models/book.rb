@@ -20,7 +20,7 @@ class Book < ApplicationRecord
  		})
 	end
 
-	def chicago_book_generate_citation
+	def chicago_style_citation
 		cite = Cite.new
 		cite.chicago_book_generate_citation({
 			source_type: 'book',

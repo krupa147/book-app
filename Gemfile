@@ -14,6 +14,8 @@ gem 'pry'
 # Serializer
 gem 'active_model_serializers', '~> 0.10.0'
 
+gem 'activerecord-import'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
